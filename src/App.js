@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+//adicionando api, fica dentro da pasta services
+
+
+//esse arquivo style permite fazer umas pre formatações 
+
+import "./styles.css";
+
+//Cada componente deve ser importado
+import Routes from "./routes";
+
+const App = () => (
+  
+  <div className="App">
+    
+      <Routes /> 
+      
+  </div>
+  
+);
+
 
 export default App;
